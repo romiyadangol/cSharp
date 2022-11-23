@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YTffNvumLl3dk+pFKCLOpr4YKW31Lno7QMlPpsfwPxCgz7wFBM0lFDYHap7/OalKU0iq6IuVz5yEnnn79nU2tg==",
+  "success": true,
+  "projectFilePath": "D:\\romiya\\C-sharp--\\Romiya D2\\Romiya D2\\Romiya D2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\student3\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
