@@ -218,7 +218,6 @@ namespace Romiya_D2
         {
             decimal firstNum = calculation;
             decimal secondNum = Convert.ToDecimal(textBox1.Text);
-            decimal ans;
             switch(operate)
             {
                 case "+":
