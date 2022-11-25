@@ -162,7 +162,6 @@ namespace Romiya_D2
 
         private void button20_Click(object sender, EventArgs e)
         {
-         
             textBox1.Text = "Ans";
         }
         private void GetResultValue()
@@ -182,7 +181,7 @@ namespace Romiya_D2
         private void button1_Click(object sender, EventArgs e)
         {
             GetResultValue();
-            operate = "";
+            
             textBox1.Text = "";
         }
 
@@ -246,6 +245,13 @@ namespace Romiya_D2
         private void button21_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EmployeeForm object_name = new EmployeeForm();
+            object_name.Show();
         }
     }
 }

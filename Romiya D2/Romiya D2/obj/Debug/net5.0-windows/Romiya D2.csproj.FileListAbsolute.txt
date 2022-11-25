@@ -17,3 +17,4 @@ D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.dll
 D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\ref\Romiya D2.dll
 D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.pdb
 D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.genruntimeconfig.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.EmployeeForm.resources
