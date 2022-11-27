@@ -1,0 +1,10 @@
+create database bit3rdsem
+use bit3rdsem
+go
+
+create table Student(
+id int not null primary key identity(1,1),
+name nvarchar(255) not null,
+address nvarchar(255) not null,
+contact nvarchar(25) not null
+)
