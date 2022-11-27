@@ -8,3 +8,4 @@ name nvarchar(255) not null,
 address nvarchar(255) not null,
 contact nvarchar(25) not null
 )
+Alter table romiya add college nvarchar(255) NULL
