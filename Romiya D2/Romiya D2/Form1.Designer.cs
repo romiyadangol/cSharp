@@ -227,7 +227,7 @@ namespace Romiya_D2
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(514, 246);
+            this.button17.Location = new System.Drawing.Point(461, 246);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(47, 29);
             this.button17.TabIndex = 0;
@@ -268,7 +268,7 @@ namespace Romiya_D2
             // button20
             // 
             this.button20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button20.Location = new System.Drawing.Point(461, 246);
+            this.button20.Location = new System.Drawing.Point(617, 300);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(47, 29);
             this.button20.TabIndex = 3;
@@ -278,7 +278,7 @@ namespace Romiya_D2
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(567, 246);
+            this.button21.Location = new System.Drawing.Point(514, 246);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(47, 29);
             this.button21.TabIndex = 0;

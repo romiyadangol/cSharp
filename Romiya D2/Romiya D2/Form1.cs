@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace Romiya_D2
     {
         string operate="";
         decimal calculation = 0;
+
+        SqlConnection conn = new SqlConnection
+            (@"Data Source=.\SQLEXPRESS;
+            Initial Catalog=bit3rdsem;
+            user id= sa;password=kist@123;");
         public Form1()
         {
             InitializeComponent();
@@ -162,7 +168,20 @@ namespace Romiya_D2
 
         private void button20_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Ans";
+            try
+            {
+                conn.Open();
+                string query = "Insert into romiya values ('sony','Manamaiju','9745332324','kist')";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Saved Successfully");
+                conn.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.InnerException);
+            }
+
         }
         private void GetResultValue()
         {
