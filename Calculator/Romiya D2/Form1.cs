@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace Romiya_D2
     {
         string operate="";
         decimal calculation = 0;
+
+        SqlConnection conn = new SqlConnection
+            (@"Data Source=.\SQLEXPRESS;
+            Initial Catalog=bit3rdsem;
+            user id= sa;password=kist@123;");
         public Form1()
         {
             InitializeComponent();
@@ -160,10 +166,6 @@ namespace Romiya_D2
             }
         }
 
-        private void button20_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "Ans";
-        }
         private void GetResultValue()
         {
             if (textBox1.Text != "" && textBox1.Text != " + " && textBox1.Text != "-" && textBox1.Text != "*" && textBox1.Text != "/" && textBox1.Text != "%")
@@ -254,9 +256,107 @@ namespace Romiya_D2
             object_name.Show();
         }
 
+<<<<<<< HEAD:Calculator/Romiya D2/Form1.cs
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+=======
+        private void button20_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.Open();
+                string query = "Insert into romiya values ('sony','Manamaiju','9745332324','kist')";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+
+                //SqlCommand cmd = conn.CreateCommand();
+                // cmd.CommandText = query;
+                // cmd.ExecuteNonQuery();
+
+
+                MessageBox.Show("Saved Successfully");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.InnerException);
+            }
+
+        }
+        private void button24_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.Open();
+                string query = "update romiya SET name = 'ram' where id = 1;";
+
+               // SqlCommand cmd = new SqlCommand(query, conn);
+               // cmd.ExecuteNonQuery();
+
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = query;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Update successfully");
+                conn.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("error: "+ex.InnerException);
+            }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.Open();
+                string query = "Delete from romiya where address='bhaktapur';";
+               // SqlCommand cmd = new SqlCommand(query, conn);
+                //cmd.ExecuteNonQuery();
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = query;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("delete successfully");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("error: " + ex.InnerException);
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+         
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            //direct adding-----
+             dataGridView1.Rows.Add ("1","ROMIYA","KTM","987654321");
+            dataGridView1.Rows.Add(id.Text, name.Text, address.Text, contact.Text);
+            /*try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("select * from romiya", conn);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                dataGridView1.DataSource = dt;
+                conn.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }*/
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Sort(dataGridView1.Columns[1], ListSortDirection.Descending);
+        }
+>>>>>>> 81832ee9572d4d03946ec88945e79ab274e6f95c:Romiya D2/Romiya D2/Form1.cs
     }
 }
