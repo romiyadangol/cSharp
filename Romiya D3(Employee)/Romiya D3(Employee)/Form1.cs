@@ -80,12 +80,9 @@ namespace Romiya_D3_Employee_
 
             string Query = "select * from employee";
             SqlCommand cmd = new SqlCommand(Query, conn);
-
             var reader = cmd.ExecuteReader();
-
             DataTable table = new DataTable();
             table.Load(reader);
-
             dataGridView1.DataSource = table;
 
             conn.Close();
@@ -96,7 +93,7 @@ namespace Romiya_D3_Employee_
 
         private void button4_Click(object sender, EventArgs e)
         {
-            dataGridView1.Sort(dataGridView1.Columns[1], ListSortDirection.Descending);
+            dataGridView1.Sort(dataGridView1.Columns[1], ListSortDirection.Ascending);
         }
 
         private void Form1_Load(object sender, EventArgs e)
