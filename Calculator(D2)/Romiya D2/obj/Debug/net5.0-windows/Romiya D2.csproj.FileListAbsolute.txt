@@ -1,0 +1,40 @@
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.exe
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.deps.json
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.runtimeconfig.json
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.runtimeconfig.dev.json
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.dll
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\ref\Romiya D2.dll
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.pdb
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.AssemblyReference.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.Form1.resources
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.Properties.Resources.resources
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.GenerateResource.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.GeneratedMSBuildEditorConfig.editorconfig
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.AssemblyInfoInputs.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.AssemblyInfo.cs
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.CoreCompileInputs.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.dll
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\ref\Romiya D2.dll
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.pdb
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.genruntimeconfig.cache
+D:\romiya\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.EmployeeForm.resources
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.exe
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.deps.json
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.runtimeconfig.json
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.runtimeconfig.dev.json
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.dll
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\bin\Debug\net5.0-windows\Romiya D2.pdb
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.AssemblyReference.cache
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.EmployeeForm.resources
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.Form1.resources
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya_D2.Properties.Resources.resources
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.GenerateResource.cache
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.GeneratedMSBuildEditorConfig.editorconfig
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.AssemblyInfoInputs.cache
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.AssemblyInfo.cs
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.csproj.CoreCompileInputs.cache
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.dll
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\refint\Romiya D2.dll
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.pdb
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\Romiya D2.genruntimeconfig.cache
+R:\gitHub\C-sharp--\Romiya D2\Romiya D2\obj\Debug\net5.0-windows\ref\Romiya D2.dll
