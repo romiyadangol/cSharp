@@ -40,7 +40,7 @@ namespace Romiya_D3_Employee_
             try
             {
                 conn.Open();
-                string query = "update Student set name='" + txtUserName.Text + "', address='" + txtUserAddr.Text + "' ,salary ='" + txtUserSalary.Text + "', where id = '" + txtUserID.Text + "' ";
+                string query = "update employee set name='" + txtUserName.Text + "', address='" + txtUserAddr.Text + "' ,salary ='" + txtUserSalary.Text + "', where id = '" + txtUserID.Text + "' ";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("saved successfully");

@@ -28,8 +28,18 @@ namespace Romiya_D3_Employee_
             SqlCommand sqlCommand = new SqlCommand(query, conn);
             SqlDataAdapter sda = new SqlDataAdapter(sqlCommand);
             DataTable dt = new DataTable();
-            sda.Fill(dt); 
-           // dataGridView1.DataSource = dt;
+            sda.Fill(dt);
+            // dataGridView1.DataSource = dt;
+            int sn = 1;
+           for(int i=0; i < dt.Rows.Count; i++)
+            {
+                string id = dt.Rows[i]["column1"].ToString();
+                string name = dt.Rows[i]["column2"].ToString();
+                string address = dt.Rows[i]["column3"].ToString();
+                string salary = dt.Rows[i]["column4"].ToString();
+                dataGridView1.Rows.Add(sn++, id, name, address, salary);
+
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -39,12 +49,40 @@ namespace Romiya_D3_Employee_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            conn.Open();
+            /*conn.Open();
             string query = "Insert into employee" + "(name,address,salary)" + "values('"+textBox2.Text + "','"+textBox3.Text +"','"+textBox4.Text + "')";
             SqlCommand cmd=conn.CreateCommand();
             cmd.CommandText = query;
             cmd.ExecuteNonQuery();
+            conn.Close();*/
+
+            //concatenate 
+            conn.Open();
+            string query = "Insert into employee" + 
+                            "(name,address,salary)" + 
+                            "values(@name,@address,@salary)";
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@name",textBox2.Text);
+            cmd.Parameters.AddWithValue("@address", textBox3.Text);
+            cmd.Parameters.AddWithValue("@salary", textBox4.Text);
+            cmd.ExecuteNonQuery();
             conn.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            /*conn.Open();
+            string query = "Update employee set name" +
+                            "(name,address,salary)"+
+                            "values(@name,@address,@salary)";
+            SqlCommand cmd = conn.CreateCommand(); 
+            cmd.CommandText= query; 
+            cmd.Parameters.AddWithValue("")
+            cmd.ExecuteNonQuery();
+           conn.Close();*/
+        }
+
+        
     }
 }
