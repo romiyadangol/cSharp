@@ -24,22 +24,30 @@ namespace Romiya_D3_Employee_
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string query = "Select * from employee";
-            SqlCommand sqlCommand = new SqlCommand(query, conn);
-            SqlDataAdapter sda = new SqlDataAdapter(sqlCommand);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            // dataGridView1.DataSource = dt;
-            int sn = 1;
-           for(int i=0; i < dt.Rows.Count; i++)
+            try
             {
-                string id = dt.Rows[i]["column1"].ToString();
-                string name = dt.Rows[i]["column2"].ToString();
-                string address = dt.Rows[i]["column3"].ToString();
-                string salary = dt.Rows[i]["column4"].ToString();
-                dataGridView1.Rows.Add(sn++, id, name, address, salary);
+                string query = "Select * from employee";
+                SqlCommand sqlCommand = new SqlCommand(query, conn);
+                SqlDataAdapter sda = new SqlDataAdapter(sqlCommand);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                // dataGridView1.DataSource = dt;
+                int sn = 1;
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    string id = dt.Rows[i]["column1"].ToString();
+                    string name = dt.Rows[i]["column2"].ToString();
+                    string address = dt.Rows[i]["column3"].ToString();
+                    string salary = dt.Rows[i]["column4"].ToString();
+                    dataGridView1.Rows.Add(sn++, id, name, address, salary);
 
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error : " + ex.InnerException);
+            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -109,6 +117,17 @@ namespace Romiya_D3_Employee_
             table.Load(reader);
             dataGridView1.DataSource = table;
 
+            conn.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string query = "delete from employee where id = @id";
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@id", textBox1.Text);
+            cmd.ExecuteNonQuery();
             conn.Close();
         }
     }
