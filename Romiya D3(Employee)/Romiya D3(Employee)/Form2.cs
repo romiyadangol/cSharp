@@ -81,7 +81,7 @@ namespace Romiya_D3_Employee_
             */
             //string query = update employee set name = 'sandip', address = 'ktm', salary = '9000000' where id = '11'
             //string query = "update employee set" + "(name, address, salary)" + "values(@name,@address,@salary)";
-            string query = "update employee set name=' @name ', address=' @address ' ,salary ='@salary' where emp_id = '@id' ";
+            string query = "update employee set name=@name, address=@address ,salary =@salary where id = @id ";
             SqlCommand cmd = conn.CreateCommand(); 
             cmd.CommandText= query;
             cmd.Parameters.AddWithValue("@name", textBox2.Text);
@@ -92,6 +92,24 @@ namespace Romiya_D3_Employee_
            conn.Close();
         }
 
-        
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            SqlConnection conn = new SqlConnection
+             (@"Data source=.\SQLEXPRESS;
+            Initial catalog=emp_details;
+            user id=sa;password=kist@123;");
+
+            conn.Open();
+
+            string Query = "select * from employee";
+            SqlCommand cmd = new SqlCommand(Query, conn);
+            var reader = cmd.ExecuteReader();
+            DataTable table = new DataTable();
+            table.Load(reader);
+            dataGridView1.DataSource = table;
+
+            conn.Close();
+        }
     }
 }
