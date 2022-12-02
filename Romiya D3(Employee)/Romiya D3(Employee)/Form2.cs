@@ -72,15 +72,24 @@ namespace Romiya_D3_Employee_
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*conn.Open();
+            conn.Open();
+            /*
             string query = "Update employee set name" +
                             "(name,address,salary)"+
                             "values(@name,@address,@salary)";
+
+            */
+            //string query = update employee set name = 'sandip', address = 'ktm', salary = '9000000' where id = '11'
+            //string query = "update employee set" + "(name, address, salary)" + "values(@name,@address,@salary)";
+            string query = "update employee set name=' @name ', address=' @address ' ,salary ='@salary' where emp_id = '@id' ";
             SqlCommand cmd = conn.CreateCommand(); 
-            cmd.CommandText= query; 
-            cmd.Parameters.AddWithValue("")
+            cmd.CommandText= query;
+            cmd.Parameters.AddWithValue("@name", textBox2.Text);
+            cmd.Parameters.AddWithValue("@address", textBox3.Text);
+            cmd.Parameters.AddWithValue("@salary", textBox4.Text);
+            cmd.Parameters.AddWithValue("@id", textBox1.Text);
             cmd.ExecuteNonQuery();
-           conn.Close();*/
+           conn.Close();
         }
 
         
