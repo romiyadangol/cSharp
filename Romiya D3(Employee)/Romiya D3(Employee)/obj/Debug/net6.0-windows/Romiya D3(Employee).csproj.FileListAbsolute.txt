@@ -47,3 +47,4 @@ D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-win
 D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).genruntimeconfig.cache
 D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\ref\Romiya D3(Employee).dll
 D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form2.resources
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form3.resources
