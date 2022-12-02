@@ -24,29 +24,29 @@ namespace Romiya_D3_Employee_
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            try
-            {
-                string query = "Select * from employee";
-                SqlCommand sqlCommand = new SqlCommand(query, conn);
-                SqlDataAdapter sda = new SqlDataAdapter(sqlCommand);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
-                // dataGridView1.DataSource = dt;
-                int sn = 1;
-                for (int i = 0; i < dt.Rows.Count; i++)
-                {
-                    string id = dt.Rows[i]["column1"].ToString();
-                    string name = dt.Rows[i]["column2"].ToString();
-                    string address = dt.Rows[i]["column3"].ToString();
-                    string salary = dt.Rows[i]["column4"].ToString();
-                    dataGridView1.Rows.Add(sn++, id, name, address, salary);
+              string query = "Select * from employee";
+              SqlCommand sqlCommand = new SqlCommand(query, conn);
+              SqlDataAdapter sda = new SqlDataAdapter(sqlCommand);
+              DataTable dt = new DataTable();
+              sda.Fill(dt);
+              // dataGridView1.DataSource = dt;
+              try 
+              {          
+                    int sn = 1;
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                         string id = dt.Rows[i]["column1"].ToString();
+                         string name = dt.Rows[i]["column2"].ToString();
+                         string address = dt.Rows[i]["column3"].ToString();
+                         string salary = dt.Rows[i]["column4"].ToString();
+                         dataGridView1.Rows.Add(sn++, id, name, address, salary);
 
-                }
-            }
-            catch (Exception ex)
-            {
+                    }
+              }
+              catch (Exception ex)
+              {
                 MessageBox.Show("Error : " + ex.InnerException);
-            }
+              }
             
         }
 
