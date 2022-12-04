@@ -1,0 +1,76 @@
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).exe
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).deps.json
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).runtimeconfig.json
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).pdb
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.AssemblyReference.cache
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form1.resources
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.GenerateResource.cache
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).GeneratedMSBuildEditorConfig.editorconfig
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfoInputs.cache
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfo.cs
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CoreCompileInputs.cache
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CopyComplete
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\refint\Romiya D3(Employee).dll
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).pdb
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).genruntimeconfig.cache
+R:\gitHub\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\ref\Romiya D3(Employee).dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).exe
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).deps.json
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).runtimeconfig.json
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).pdb
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.AssemblyReference.cache
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form1.resources
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.GenerateResource.cache
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).GeneratedMSBuildEditorConfig.editorconfig
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfoInputs.cache
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfo.cs
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CoreCompileInputs.cache
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CopyComplete
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\refint\Romiya D3(Employee).dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).pdb
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).genruntimeconfig.cache
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\ref\Romiya D3(Employee).dll
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form2.resources
+D:\romiya\C-sharp--\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form3.resources
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).exe
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).deps.json
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).runtimeconfig.json
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\Romiya D3(Employee).pdb
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.AssemblyReference.cache
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form1.resources
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form2.resources
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya_D3_Employee_.Form3.resources
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.GenerateResource.cache
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfoInputs.cache
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).AssemblyInfo.cs
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CoreCompileInputs.cache
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).csproj.CopyComplete
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\refint\Romiya D3(Employee).dll
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).pdb
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\Romiya D3(Employee).genruntimeconfig.cache
+C:\Users\sandi\Downloads\Github\Romiya D3(Employee)\Romiya D3(Employee)\obj\Debug\net6.0-windows\ref\Romiya D3(Employee).dll
