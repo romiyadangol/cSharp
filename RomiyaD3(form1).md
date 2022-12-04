@@ -82,11 +82,6 @@ namespace Romiya_D3_Employee_
 ```py
         private void Display_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection
-             (@"Data source=.\SQLEXPRESS;
-            Initial catalog=emp_details;
-            user id=sa;password=kist@123;");
-
             conn.Open();
 
             string Query = "select * from employee";
@@ -106,6 +101,8 @@ namespace Romiya_D3_Employee_
         private void button4_Click(object sender, EventArgs e)
         {
             dataGridView1.Sort(dataGridView1.Columns[1], ListSortDirection.Ascending);
+            
+             dataGridView1.Sort(dataGridView1.Columns[1], ListSortDirection.Descending);
         }
 
         private void Form1_Load(object sender, EventArgs e)
