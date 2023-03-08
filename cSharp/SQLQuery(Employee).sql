@@ -1,4 +1,4 @@
-/*
+
 --create database emp_details
 use emp_details
 go
@@ -16,6 +16,5 @@ Insert into employee(name,address,salary)values
 ('Purna','Lalitpur','35000'),
 ('Laxmi','Gongabu','30000');
 
-*/
 Select * from employee
 
