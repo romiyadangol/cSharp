@@ -9,7 +9,7 @@ name nvarchar(255) not null,
 address nvarchar(255) not null,
 salary nvarchar(10) not null
 )
-
+*****************************
 Insert into employee(name,address,salary)values
 ('Romiya','Manamaiju','15000'),
 ('Soniya','Nuwakot','25000'),
