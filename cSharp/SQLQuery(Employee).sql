@@ -1,4 +1,4 @@
-//employee details
+/1/employee details
 --create database emp_details
 use emp_details
 go
