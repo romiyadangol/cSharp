@@ -2,7 +2,7 @@
 --create database emp_details
 use emp_details
 go
-**********************
+
 create table employee
 (id int not null primary key identity(1,1),
 name nvarchar(255) not null,
