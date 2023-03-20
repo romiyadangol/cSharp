@@ -16,4 +16,4 @@ Insert into employee(name,address,salary)values
 ('Laxmi','Gongabu','30000');
 
 Select * from employee
-************************
+--------------------------------------
